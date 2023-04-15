@@ -5,7 +5,7 @@
 
 <h2 align="center"><b>To do list App</b> Relaese 1.1.0</h2> 
 
-    My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.  
+My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.  
 
 <h2 align="center"><a href="https://link.com">DEMO</a></h2>
 
@@ -13,10 +13,7 @@
 
 ## 🔎 Used languages and tools:
 
-<img src="readme-resource/html-5.svg" alt="HTML 5" width="50" height="50">
-<img src="readme-resource/css-3.svg" alt="CSS 3" width="50" height="50">
-<img src="readme-resource/javascript.svg" alt="JavaScript" width="50" height="50">
-<img src="readme-resource/figma.svg" alt="JavaScript" width="50" height="50">
+<img src="readme-resource/html-5.svg" alt="HTML 5" width="50" height="50"><img src="readme-resource/css-3.svg" alt="CSS 3" width="50" height="50"><img src="readme-resource/javascript.svg" alt="JavaScript" width="50" height="50"><img src="readme-resource/figma.svg" alt="JavaScript" width="50" height="50">
 
 <br>
 
