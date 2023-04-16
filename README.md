@@ -15,6 +15,8 @@ My application gives the user to make his task list. Every task could be modifie
 
 <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML 5" width="50" height="50"><img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS 3" width="50" height="50"><img src="https://cdn.svgporn.com/logos/javascript.svg" alt="JavaScript" width="50" height="50"><img src="https://cdn.svgporn.com/logos/figma.svg" alt="JavaScript" width="50" height="50">
 
+> Images from [site](https://svgporn.com/#search=font%20aw)
+
 <br>
 
 ## 📈 Goals:
