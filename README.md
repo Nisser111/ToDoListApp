@@ -3,9 +3,9 @@
 
 ---
 
-<h2 align="center"><b>To do list App</b> Relaese 1.1.0</h2> 
+<h2 align="center"><b>To do list App</b> Relaese 1.1.0</h2>
 
-My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.  
+My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.
 
 <h2 align="center"><a href="https://link.com">DEMO</a></h2>
 
@@ -20,15 +20,16 @@ My application gives the user to make his task list. Every task could be modifie
 <br>
 
 ## 📈 Goals:
- - [ ] Simplyfi CSS
- - [ ] Make history tasks 
- - [ ] Make integred calendar
- - [ ] Add more animations
+
+- [ ] Simplyfi CSS
+- [ ] Make history tasks
+- [ ] Make integred calendar
+- [ ] Add more animations
 
 <br>
 
 ## 🔒 License
- 
+
     MIT License
 
     Copyright &copy; 2023 Miłosz Kułak
@@ -52,8 +53,9 @@ My application gives the user to make his task list. Every task could be modifie
     SOFTWARE.
 
 ## 📧 Contact me
- - [Github](https://www.github.com/Nisser111)
- - [Portfolio](https://miloszkulak-webdev.com)
- - [Linkedln](https://www.linkedin.com/in/mi%C5%82osz-ku%C5%82ak-047948223/)
- - [Twitter](https://twitter.com/MiloszKulak)
- - kulakmilosz2006@gmail.com
+
+- [Github](https://www.github.com/Nisser111)
+- [Portfolio](https://miloszkulak-webdev.com)
+- [Linkedln](https://www.linkedin.com/in/mi%C5%82osz-ku%C5%82ak-047948223/)
+- [Twitter](https://twitter.com/MiloszKulak)
+- kulakmilosz2006@gmail.com
