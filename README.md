@@ -13,7 +13,7 @@ My application gives the user to make his task list. Every task could be modifie
 
 ## 🔎 Used languages and tools:
 
-<img src="readme-resource/html-5.svg" alt="HTML 5" width="50" height="50"><img src="readme-resource/css-3.svg" alt="CSS 3" width="50" height="50"><img src="readme-resource/javascript.svg" alt="JavaScript" width="50" height="50"><img src="readme-resource/figma.svg" alt="JavaScript" width="50" height="50">
+<img src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML 5" width="50" height="50"><img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS 3" width="50" height="50"><img src="https://cdn.svgporn.com/logos/javascript.svg" alt="JavaScript" width="50" height="50"><img src="https://cdn.svgporn.com/logos/figma.svg" alt="JavaScript" width="50" height="50">
 
 <br>
 
