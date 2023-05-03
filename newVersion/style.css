@@ -83,13 +83,20 @@ section.add_new_task {
     background: linear-gradient(to right, var(--purple), transparent) var(--pink);
     border: none;
     border-radius: 5px;
-    transition: background-color .7s ease-out;
+}
+
+.add_new_task--btn div {
+    transition: transform .3s ease;
 }
 
 .add_new_task--btn:hover, 
 .add_new_task--btn:active{
-    background-color: var(--purple);
     cursor: pointer;
+}
+
+.add_new_task--btn:hover div, 
+.add_new_task--btn:active div{
+    transform: scale(1.08);
 }
 
 /* Tasks list */
@@ -102,27 +109,10 @@ section.tasks-list {
     margin: 30px auto 0 auto;
 }
 
-section.tasks-list p{
-    color: var(--fontColor);
-    font-weight: 700;
-    text-align: center;
-    font-size: 2rem;
-    opacity: .7;
-}
-
-section.tasks-list p span{
-    color: #623a8d;
-    background: var(--gradient);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .task {
     list-style-type: none;
     margin-bottom: 15px;
 }
-
 
 .edit--btn, 
 .delete--btn {
@@ -133,13 +123,23 @@ section.tasks-list p span{
     border-radius: 5px;
     color: #fff;
     font-size: 1.1rem;
-    transition: opacity .4s ease;
+}
+
+.edit--btn i, 
+.delete--btn i {
+    transition: transform .3s ease;
 }
 
 .edit--btn:hover, 
 .delete--btn:hover {
     cursor: pointer;
-    opacity: 0.8;
+}
+
+.edit--btn:hover i, 
+.edit--btn:active i, 
+.delete--btn:hover i,
+.delete--btn:active i {
+    transform: scale(1.1);
 }
 
 .edit--btn {
@@ -148,6 +148,34 @@ section.tasks-list p span{
 
 .delete--btn {
     background-color: var(--red);
+}
+
+/* No tasks info */
+section.tasks-list p{
+    color: var(--fontColor);
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+    opacity: .7;
+}
+
+section.tasks-list p button {
+    color: #623a8d;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    transform: scale(1);
+    transition: transform ease .3s;
+}
+
+section.tasks-list p button:hover,
+section.tasks-list p button:active {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 
