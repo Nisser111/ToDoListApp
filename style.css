@@ -112,6 +112,12 @@ section.tasks-list {
 .task {
     list-style-type: none;
     margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task:last-child {
+    margin-bottom: 0;
 }
 
 .edit--btn, 
@@ -193,26 +199,43 @@ section.tasks-list p button:active {
     }
 }
 
-@media screen and (max-width: 425px) {
-    header {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     section.add_new_task {
         flex-direction: column;
     }
 
-    section.add_new_task input {
+    .--input {
         width: 100%;
-        padding: 4px;
         font-size: 1.1rem;
-        /* text-align: center; */
     }
 
     section.add_new_task button {
         margin: 15px auto 0 auto;
         width: 50%;
+    }
+
+    .task {
+        justify-content: center;
+    }
+
+    .edit--btn, 
+    .delete--btn {
+        width: 45%;
+        margin-top: 15px;
+    }
+    
+    .edit--btn {
+        margin-right: 6%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        font-size: 1rem;
+    }
+
+    section.add_new_task input {
+        padding: 4px;
+        font-size: 1.1rem;
     }
 }
