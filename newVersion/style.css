@@ -198,3 +198,21 @@ section.tasks-list p button:active {
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    section.add_new_task {
+        flex-direction: column;
+    }
+
+    section.add_new_task input {
+        width: 100%;
+        padding: 4px;
+        font-size: 1.1rem;
+        /* text-align: center; */
+    }
+
+    section.add_new_task button {
+        margin: 15px auto 0 auto;
+        width: 50%;
+    }
+}
