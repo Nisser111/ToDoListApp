@@ -3,7 +3,7 @@
 
 ---
 
-<h2 align="center"><b>To do list App</b> Relaese 1.1.0</h2>
+<h2 align="center"><b>To do list App</b> Relaese 2.1.0</h2>
 
 My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.
 
