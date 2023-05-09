@@ -3,12 +3,25 @@ let tasks = [];
 
 // get text from input
 function addNewTask() {
+    const input = document.querySelector(".add_new_task--input");
+    let v = input.value; 
 
+    if(v) return v;
+    else return false; 
 }
 
 // is input empty 
 function isInputEmpty() {
+    
+}
 
+// get text from input
+function getText() {
+    const input = document.querySelector(".add_new_task--input");
+    if(!input.value) 
+        return true
+    else
+        return false;
 }
 
 // add new task to list
