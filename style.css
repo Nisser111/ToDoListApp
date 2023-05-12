@@ -109,7 +109,7 @@ section.tasks-list {
     border-radius: 30px;
     padding: 35px;
     background-color: #fff;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 10vh auto;
 }
 
 .task {
@@ -125,7 +125,8 @@ section.tasks-list {
 
 .edit--btn, 
 .delete--btn {
-    width: calc(7%);
+    width: 7%;
+    min-height: 47px;
     margin: 0 1%;
     border: none;
     border-radius: 5px;
