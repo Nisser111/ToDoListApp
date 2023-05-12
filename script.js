@@ -31,7 +31,11 @@ function Task(v){
             const clone = template.content.cloneNode(true);
             
             const input = clone.querySelector(".task-text");
+            const deleteBtn = clone.querySelector(".edit--btn");
+            const editBtn = clone.querySelector(".delete--btn");
             input.value = this.text;
+            deleteBtn.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>';
+            editBtn.innerHTML = '<i class="fa-solid fa-trash"></i>';
     
             newTask.append(clone);
         }
@@ -56,16 +60,6 @@ Task.prototype.generateId = function() {
             usedIndex.push(r);
             return r;
     }
-}
-
-// edit task
-Task.prototype.editTask = function() {
-
-}
-
-// delete task
-Task.prototype.deleteTask = function(event) {
-
 }
 
 // is input empty 
@@ -108,10 +102,32 @@ addNewTaskBtn.addEventListener("click", function() {
     }
 });
 
-// When user delete task
+// When user delete or edit task
 list.addEventListener("click", e => {
-    if(e.target.classList.contains("delete--btn")) {
-        e.target.deleteTask(e);
+    if( e.target.classList.contains("delete--btn") || 
+        e.target.classList.contains("fa-trash")) {
+        const itemKey = e.target.parentElement.parentElement;
+        itemKey.remove();
+    } else if( 
+        e.target.classList.contains("edit--btn") || 
+        e.target.classList.contains("fa-pen-to-square")) {
+        const itemKey = e.target.parentElement.parentElement;
+        const editInput = itemKey.querySelector(".task-text");
+
+        // edit enable
+        editInput.removeAttribute("readonly");
+        editInput.focus();
+
+        // change icon
+        const btn = e.target.parentElement;
+        btn.innerHTML = '<i class="fa-solid fa-check"></i>';
+        
+        // restoration initial state
+        btn.addEventListener("click", e => {
+            if(e.target.classList.contains("fa-check")) {
+                btn.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>';
+                editInput.setAttribute("readonly", "");
+            }
+        });
     }
 })
-

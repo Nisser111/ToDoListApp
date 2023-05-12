@@ -125,8 +125,7 @@ section.tasks-list {
 
 .edit--btn, 
 .delete--btn {
-    width: 7%;
-    padding: 7px;
+    width: calc(7%);
     margin: 0 1%;
     border: none;
     border-radius: 5px;
@@ -137,6 +136,10 @@ section.tasks-list {
 .edit--btn i, 
 .delete--btn i {
     transition: transform .3s ease;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
 }
 
 .edit--btn:hover, 
