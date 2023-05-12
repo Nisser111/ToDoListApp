@@ -53,8 +53,7 @@ header > h1 {
     padding: 35px;
 }
 
-.add_new_task form {
-    width: 100%;
+.add_new_task {
     display: flex;
     justify-content: space-between;
 }

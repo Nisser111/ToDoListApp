@@ -25,13 +25,11 @@
     </header>
     <main>
       <section class="add_new_task">
-        <form action="" method="get">
           <input type="text" class="add_new_task--input --input" placeholder="What do you have planed?" required/>
           <button class="add_new_task--btn"><div>ADD</div></button>
-        </form>
       </section>
 
-      <template>
+      <template id="taskTempalte" class="task">
         <input type="text" class="task-text --input" value="" readonly />
         <button class="edit--btn">
           <i class="fa-solid fa-pen-to-square"></i>
@@ -45,7 +43,7 @@
         <ul>
         </ul>
 
-        <p>Everything is done! Or maybe no?<br/><button class="add-task-empty-task-list">ADD TASK</button></p>
+        <p id="no-task-info">Everything is done! Or maybe no?<br/><button class="add-task-empty-task-list">ADD TASK</button></p>
       </section>
     </main>
 
