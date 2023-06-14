@@ -4,6 +4,7 @@ const addNewTaskBtn = document.querySelector(".add_new_task--btn");
 const addTaskBtn = document.querySelector(".add-task-empty-task-list");
 const noTaskInfo = document.querySelector("#no-task-info");
 const list = document.querySelector(".tasks-list ul");
+const tasksSection = document.querySelector(".tasks-list")
 
 
 // tasks list
@@ -13,7 +14,8 @@ let usedIndex = [];
 
 // auto focus to add new task input
 window.onload = () => {
-    addNewTaskInput.focus()
+    addNewTaskInput.focus();
+    showNoTaskInfo();
 }
 
 // task constructor
@@ -40,7 +42,7 @@ function Task(v){
             newTask.append(clone);
         }
     
-        list.append(newTask)
+        list.append(newTask);
     };
 
 
@@ -71,11 +73,22 @@ function isInputEmpty() {
         return false;
 }
 
-// is tasks list empty
+// hide info when didn't tasks
 function hideNoTaskInfo() {
-    if(!tasks.length)
-        noTaskInfo.remove();
+    if(!document.querySelectorAll(".tasks-list ul li").length)
+        noTaskInfo.style.display = "none";
 }
+
+// show info when didn't tasks
+function showNoTaskInfo() {
+    if(!document.querySelectorAll(".tasks-list ul li").length)
+        noTaskInfo.style.display = "block";
+}
+
+// focus to input when add_task_button clicked
+addTaskBtn.addEventListener("click", () => {
+    addNewTaskInput.focus();
+})
 
 // create task
 function createTask() {
@@ -85,15 +98,8 @@ function createTask() {
     task.renderTask();
 }
 
-// focus to input when add_task_button clicked
-addTaskBtn.addEventListener("click", () => {
-    const input = document.querySelector(".add_new_task--input");
-    input.focus();
-});
-
-
 // When add new task button was clicked 
-addNewTaskBtn.addEventListener("click", function() {
+addNewTaskBtn.addEventListener("click", () => {
     if (isInputEmpty()) {
         alert("Please, write what you want to do");
     } else {
@@ -104,13 +110,14 @@ addNewTaskBtn.addEventListener("click", function() {
 
 // When user delete or edit task
 list.addEventListener("click", e => {
-    if( e.target.classList.contains("delete--btn") || 
-        e.target.classList.contains("fa-trash")) {
+    if(e.target.classList.contains("fa-trash")) {
         const itemKey = e.target.parentElement.parentElement;
         itemKey.remove();
-    } else if( 
-        e.target.classList.contains("edit--btn") || 
-        e.target.classList.contains("fa-pen-to-square")) {
+        hideNoTaskInfo();
+        showNoTaskInfo();
+    }
+    
+    if(e.target.classList.contains("fa-pen-to-square")) {
         const itemKey = e.target.parentElement.parentElement;
         const editInput = itemKey.querySelector(".task-text");
 
