@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Miłosz</h1>
-<h3 align="center">Student secound class technical school from Poland, in future programmer technician</h3>
+<h3 align="center">Student third class technical school from Poland, in future programmer technician</h3>
 
 ---
 
-<h2 align="center"><b>To do list App</b> Relaese 2.1.0</h2>
+<h2 align="center"><b>To do list App</b> Relaese 2.2.0</h2>
 
 My application gives the user to make his task list. Every task could be modified and deleted. I have done it to better understand basics JavaScript and burnish my Frontend skills. I use pure JavaScript, HTML, and CSS and for convenience, I have imported CDNJS Google Fonts and font awesome library. The app hasn't much advanced but I'm still learning.
 
@@ -15,16 +15,16 @@ My application gives the user to make his task list. Every task could be modifie
 
 <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML 5" width="50" height="50"><img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS 3" width="50" height="50"><img src="https://cdn.svgporn.com/logos/javascript.svg" alt="JavaScript" width="50" height="50"><img src="https://cdn.svgporn.com/logos/figma.svg" alt="JavaScript" width="50" height="50">
 
-> Images from [site](https://svgporn.com/#search=font%20aw)
+> Images from [site](https://svgporn.com/)
 
 <br>
 
 ## 📈 Goals:
 
-- [ ] Simplyfi CSS
 - [ ] Make history tasks
 - [ ] Make integred calendar
 - [ ] Add more animations
+- [ ] Add custom alert when new task input is empty
 
 <br>
 
@@ -55,7 +55,6 @@ My application gives the user to make his task list. Every task could be modifie
 ## 📧 Contact me
 
 - [Github](https://www.github.com/Nisser111)
-- [Portfolio](https://miloszkulak-webdev.com)
 - [Linkedln](https://www.linkedin.com/in/mi%C5%82osz-ku%C5%82ak-047948223/)
 - [Twitter](https://twitter.com/MiloszKulak)
 - kulakmilosz2006@gmail.com
