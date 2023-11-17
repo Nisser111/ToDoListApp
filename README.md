@@ -1,6 +1,4 @@
 <h1 align="center">Hi 👋, I'm Miłosz</h1>
-<h3 align="center">Student third class technical school from Poland, in future programmer technician</h3>
-
 ---
 
 <h2 align="center"><b>To do list App</b> Relaese 2.2.0</h2>
